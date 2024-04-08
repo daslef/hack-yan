@@ -1,4 +1,4 @@
-## Команда "Щенки"
+## Команда "Puppies"
 - Кирилл Паршин (проджект менеджер)
 - Ян Карпов (FullStack разработчик)
 - Демьян Агунович (Дизайнер)
@@ -13,6 +13,7 @@
 'npm run dev'
 
 ### Продакшен
+https://puppies-giperfm.netlify.app - ссылка на развёрнутое приложение на Netlify
 
 ## Доступ к Бэкэнду:
 - Бэкэнд развёрнут на "supabase"
@@ -26,13 +27,17 @@
 
 
 ## Примечание
-Что сделано:
-Что в процессе:
-Что в планах: Выспаться, плотно покушать.
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Что сделано: 
+Со стороны разработки - был изучен новый технологический стэк Refine / React / React Router v6 / Ant Design. Работа с supabase, написание ключевого фундамента со стороны бэкэнда, чтобы было от чего отталкиваться.
+Со стороны дизайна:
+Страница регистрации 
+Основная страница 
+Календарь 
+Личный кабинет 
+Страница событий 
+Каталог товаров 
+# Что в процессе: 
+Допиливание базы данных (не реализованы все таблицы и связи между ними), тестирование прав доступа по ролям, определение с иконки акцентным цветом (со стороны дизайна)
+# Что в планах: 
+Реализовать ограничение прав доступа, прописать все остальные таблицы в коде по мере разработки базы данных на supabase, электронная валюта, найти хотя одного, 
+желательно 2 разработчиков (1 фронтенд, 1 бэкэнд) на помощь бедному fullstack. Выспаться...
