@@ -19,9 +19,16 @@
 - логин:
 - пароль:
 
+## Тестовые аккаунты, под которыми можно войти в приложение
+Логин - admin@giper.fm /  Пароль - adminpass
+Логин - test@user /  Пароль - 111111
+Логин - emp1@giper.fm /  Пароль - emp1pass
+
 
 ## Примечание
-
+Что сделано:
+Что в процессе:
+Что в планах: Выспаться, плотно покушать.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
