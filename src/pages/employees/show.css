@@ -1,0 +1,17 @@
+.not-found-message {
+  text-align: center; /* Выравниваем текст по центру */
+  font-size: 24px; /* Увеличиваем размер текста */
+  margin-top: 20px; /* Добавляем небольшой отступ сверху */
+  display: flex; /* Устанавливаем отображение flex */
+  flex-direction: column; /* Располагаем элементы в столбце */
+  align-items: center; /* Выравниваем элементы по центру */
+  margin-left: 50px; /* Добавляем отступ слева */
+}
+
+.not-found-message div + svg {
+  margin-top: 10px; /* Добавляем отступ между текстом и иконкой */
+}
+
+
+  
+  

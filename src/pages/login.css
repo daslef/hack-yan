@@ -1,0 +1,73 @@
+html.login-html,
+body.login-body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+}
+
+#root:has(.login-container) {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.login-container {
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  animation: appear 0.5s ease-out forwards;
+  max-width: 300px; /* Updated */
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.login-container input,
+.login-container button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Updated */
+  font-size: 16px;
+  width: 100%; /* Updated */
+}
+
+.login-container button {
+  background-color: #a6a6a6;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+

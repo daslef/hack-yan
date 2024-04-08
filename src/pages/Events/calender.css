@@ -1,0 +1,25 @@
+/* Добавление границы календарю */
+.event-calendar {
+  width: 80vw; 
+  height: 90vh; 
+  resize: both; 
+  overflow: auto; 
+  border: 2px solid #ddd; 
+  border-radius: 8px; 
+}
+
+/* Увеличение отступов и размеров ячеек даты */
+.ant-picker-cell {
+  height: 50px; 
+  padding: 10px; 
+}
+
+
+.event {
+  padding: 6px 10px; 
+}
+
+/* Увеличение размера шрифта чисел дат */
+.date {
+  font-size: 14px; 
+}
